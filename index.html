@@ -1,3 +1,4 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -6,15 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" 
-    rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="estilos.css">
     <title>Ahorcado</title>
-
 </head>
 <body>
     <header>
-    <h1>Ahorcado</h1>
+        <h1>Ahorcado</h1>
     </header>
     <main>
         <img id="imagen" src="img/hangman-0.svg" alt="palito">
@@ -25,8 +24,8 @@
                 <span>_</span>
                 <span>_</span>
             </p>
-            <button id="jugar"> obteber palbra</button>
-            <div>
+            <button id="jugar">obtener palabra</button>
+            <div id="teclado">
                 <button>A</button>
                 <button>B</button>
                 <button>C</button>
@@ -40,6 +39,7 @@
                 <button>K</button>
                 <button>L</button>
                 <button>M</button>
+                <button>N</button>
                 <button>Ñ</button>
                 <button>O</button>
                 <button>P</button>
@@ -56,5 +56,6 @@
             </div>
         </div>
     </main>
+    <script src="juego.js"></script>
 </body>
 </html>

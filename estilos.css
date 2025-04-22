@@ -1,30 +1,83 @@
-body{
+/* estilos.css */
+body {
     margin: 0;
-    background-color: url(img/images.jpeg) no-repeat center;
+    background: url(img/images.jpeg) no-repeat center;
     background-size: cover;
-    font-family:'Carter+One',Arial,Helvetica,sans-serif;
+    font-family: 'Carter One', Arial, Helvetica, sans-serif;
     min-height: 100vh;
 }
 
-header{
+header {
     background: black;
     padding: 10px;
     margin-bottom: 20px;
     text-align: center;
 }
 
-h1{
+h1 {
     margin: 0;
     color: white;
 }
-main{
-    width: 80px;
-    margin:auto;
+
+main {
+    width: 80%;
+    margin: auto;
     padding: 20px;
     background: rgba(255,255,255,.7);
     display: flex;
-    gap: 30px
+    gap: 30px;
 }
-.imagen{
+
+#imagen {
     width: 200px;
+}
+
+#palabra_a_adivinar {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#palabra_a_adivinar span {
+    margin: 0 5px;
+}
+
+#teclado {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px;
+    font-family: 'Carter One', Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    transition: all 0.2s;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+button:disabled {
+    background-color: #ccc;
+    color: #888;
+    cursor: not-allowed;
+}
+
+#jugar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 0 auto;
+    display: block;
+}
+
+#jugar:hover {
+    background-color: #45a049;
 }
