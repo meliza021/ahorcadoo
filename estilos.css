@@ -15,21 +15,23 @@ header {
 }
 
 h1 {
-    margin: 0;
+    margin: 50px;
     color: white;
 }
 
 main {
     width: 80%;
-    margin: auto;
-    padding: 20px;
+    height: 700px;
+    margin: 70px;
+    padding: 190px;
     background: rgba(255,255,255,.7);
     display: flex;
     gap: 30px;
 }
 
 #imagen {
-    width: 200px;
+    width: 400px;
+    margin-right: 300px;
 }
 
 #palabra_a_adivinar {
@@ -47,30 +49,34 @@ main {
     flex-wrap: wrap;
     gap: 5px;
     margin-top: 20px;
+
 }
 
 button {
     padding: 10px;
     font-family: 'Carter One', Arial, Helvetica, sans-serif;
     cursor: pointer;
-    border: 2px solid #333;
-    border-radius: 5px;
+    border: 5px solid #333;
+    border-radius: 10px;
     background-color: #f0f0f0;
     transition: all 0.2s;
+    width: 70px;
 }
+
+
 
 button:hover {
     background-color: #ddd;
 }
 
 button:disabled {
-    background-color: #ccc;
-    color: #888;
+    background-color: pink;
+    color: pink;
     cursor: not-allowed;
 }
 
 #jugar {
-    background-color: #4CAF50;
+    background-color: pink;
     color: white;
     padding: 10px 20px;
     font-size: 1rem;
