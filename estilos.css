@@ -35,7 +35,7 @@ main {
 }
 
 #palabra_a_adivinar {
-    font-size: 2rem;
+    font-size: 5rem;
     text-align: center;
     margin-bottom: 150px;
     margin-top: 150px;
@@ -63,8 +63,7 @@ button {
     background-color: #f0f0f0;
     transition: all 0.2s;
     width: 70px;
-    font-size: 20px
-    ;
+    font-size: 20px;
 
 }
 
