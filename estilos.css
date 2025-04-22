@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    background-color: url(img/images.jpeg) no-repeat center;
+    background-size: cover;
+    font-family:'Carter+One',Arial,Helvetica,sans-serif;
+
+}
+
+header{
+    background: black;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h1{
+    margin: 0;
+    color: white;
+}
+main{
+    width: 80px;
+    margin:auto;
+    padding: 20px;
+    background: rgba(255,255,255,.7);
+    display: flex;
+}
+.imagen{
+    width: 200px;
+
